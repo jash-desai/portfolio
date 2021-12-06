@@ -17,7 +17,8 @@ class Header extends StatelessWidget {
                     VStack(
                       [
                         if (context.isMobile) 50.heightBox else 10.heightBox,
-                        const CustomAppBar(),
+                        const CustomAppBar()
+                            .shimmer(primaryColor: Colorz.accentColor),
                         30.heightBox,
                         const NameWidget(),
                         20.heightBox,

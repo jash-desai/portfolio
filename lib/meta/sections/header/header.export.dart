@@ -7,6 +7,5 @@ export 'package:velocity_x/velocity_x.dart';
 export 'package:url_launcher/url_launcher.dart';
 export '/meta/sections/header/widgets/name.header.widget.dart';
 export '/meta/sections/header/widgets/intro.header.widget.dart';
-export '/meta/sections/header/widgets/image.header.widget.dart';
 export '/meta/sections/header/widgets/appBar.header.widget.dart';
 export '/meta/sections/header/widgets/social.header.widget.dart';
