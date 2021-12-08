@@ -20,11 +20,13 @@ class ProjectSection extends StatelessWidget {
           20.widthBox,
           Expanded(
             child: VxSwiper(
+              // options: CarouselOptions(
               height: context.isMobile ? 380 : 220,
               autoPlayAnimationDuration: 7.seconds,
               autoPlay: true,
               enableInfiniteScroll: true,
               viewportFraction: 1,
+              // ),
               items: [
                 ProjectContent(
                   projectName: projectName[0],

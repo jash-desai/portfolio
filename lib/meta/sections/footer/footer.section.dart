@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import '/meta/sections/header/header.export.dart';
 
 class FooterSection extends StatelessWidget {
@@ -23,7 +22,7 @@ class FooterSection extends StatelessWidget {
             AntIcons.heart,
             color: Vx.red500,
             size: 14,
-          )
+          ).shimmer(primaryColor: Colorz.accentColor),
         ].hStack(crossAlignment: CrossAxisAlignment.center)
       ],
       crossAlignment: CrossAxisAlignment.center,
