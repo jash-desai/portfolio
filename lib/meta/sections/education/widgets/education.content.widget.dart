@@ -1,4 +1,6 @@
-import '/meta/sections/education/education.export.dart';
+import 'package:flutter/material.dart';
+import 'package:portfolio/app/shared/colors.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class EducationWidget extends StatelessWidget {
   final String name;

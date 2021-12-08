@@ -1,4 +1,8 @@
-import '/meta/sections/header/header.export.dart';
+import 'package:flutter/material.dart';
+import '/app/routes/social.routes.dart';
+import 'package:ant_icons/ant_icons.dart';
+import 'package:velocity_x/velocity_x.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class SocialAccounts extends StatelessWidget {
   const SocialAccounts({Key? key}) : super(key: key);

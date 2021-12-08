@@ -1,4 +1,9 @@
-import '/meta/sections/header/header.export.dart';
+import '/app/shared/colors.dart';
+import 'package:flutter/material.dart';
+import 'package:ant_icons/ant_icons.dart';
+import 'package:velocity_x/velocity_x.dart';
+import '/meta/sections/header/widgets/appBar.header.widget.dart';
+import '/meta/sections/header/widgets/social.header.widget.dart';
 
 class FooterSection extends StatelessWidget {
   const FooterSection({Key? key}) : super(key: key);

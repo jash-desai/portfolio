@@ -1,4 +1,5 @@
-import '/meta/sections/header/header.export.dart';
+import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class IntroTextWidget extends StatelessWidget {
   const IntroTextWidget({Key? key}) : super(key: key);

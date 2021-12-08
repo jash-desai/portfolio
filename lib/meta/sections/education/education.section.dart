@@ -1,5 +1,9 @@
-import 'education.export.dart';
+// import 'education.export.dart';
+import '/app/shared/colors.dart';
+import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 import '/meta/sections/education/constants/edu.details.const.dart';
+import '/meta/sections/education/widgets/education.content.widget.dart';
 
 class EducationSection extends StatelessWidget {
   const EducationSection({Key? key}) : super(key: key);

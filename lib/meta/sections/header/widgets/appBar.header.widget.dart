@@ -1,6 +1,5 @@
-// ignore_for_file: import_of_legacy_library_into_null_safe
-
-import '/meta/sections/header/header.export.dart';
+import '/app/shared/colors.dart';
+import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
 
 class CustomAppBar extends StatelessWidget {

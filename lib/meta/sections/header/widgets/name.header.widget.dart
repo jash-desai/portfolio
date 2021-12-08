@@ -1,4 +1,5 @@
-import '/meta/sections/header/header.export.dart';
+import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class NameWidget extends StatelessWidget {
   const NameWidget({Key? key}) : super(key: key);

@@ -1,4 +1,6 @@
-import '/meta/sections/header/header.export.dart';
+import 'dart:math';
+import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class PictureWidget extends StatelessWidget {
   const PictureWidget({Key? key}) : super(key: key);

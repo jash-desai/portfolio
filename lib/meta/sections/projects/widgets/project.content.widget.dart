@@ -1,4 +1,6 @@
-import '/meta/sections/projects/projects.export.dart';
+import '/app/shared/colors.dart';
+import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class ProjectContent extends StatelessWidget {
   final String projectName;

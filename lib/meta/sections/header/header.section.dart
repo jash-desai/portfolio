@@ -1,4 +1,10 @@
-import 'header.export.dart';
+import '/app/shared/colors.dart';
+import 'package:flutter/material.dart';
+import 'widgets/name.header.widget.dart';
+import 'widgets/intro.header.widget.dart';
+import 'widgets/social.header.widget.dart';
+import 'widgets/appBar.header.widget.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class Header extends StatelessWidget {
   const Header({Key? key}) : super(key: key);
