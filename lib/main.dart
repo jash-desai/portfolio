@@ -1,5 +1,5 @@
-import 'app/routes/routes.dart';
-import '/app/shared/colors.dart';
+import 'package:portfolio/app/routes/routes.dart';
+import 'package:portfolio/app/shared/colors.dart';
 import 'package:flutter/material.dart';
 
 void main() {

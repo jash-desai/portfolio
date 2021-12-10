@@ -1,7 +1,7 @@
-import 'resume.header.widget.dart';
+import 'package:portfolio/meta/sections/header/widgets/resume.header.widget.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
-import '/meta/sections/header/widgets/introText.header.widget.dart';
+import 'package:portfolio/meta/sections/header/widgets/introText.header.widget.dart';
 
 class IntroWidget extends StatelessWidget {
   const IntroWidget({Key? key}) : super(key: key);

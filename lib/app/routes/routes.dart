@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '/meta/pages/splash/splash.page.dart';
-import '/meta/pages/home/home.portfolio.dart';
+import 'package:portfolio/meta/pages/splash/splash.page.dart';
+import 'package:portfolio/meta/pages/home/home.portfolio.dart';
 
 class AppRouter {
   static const String home = "/home";

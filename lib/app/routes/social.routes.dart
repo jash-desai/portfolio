@@ -1,4 +1,4 @@
-const String resumePDF = "";
+const String resumePDF = "https://wait-a-min/";
 const String github = "https://github.com/jash-desai";
 const String twitter = "https://twitter.com/jash13desai";
 const String linkedIn = "https://www.linkedin.com/in/jade13/";

@@ -1,9 +1,9 @@
-import '/app/shared/colors.dart';
+import 'package:portfolio/app/shared/colors.dart';
 import 'package:flutter/material.dart';
-import 'widgets/name.header.widget.dart';
-import 'widgets/intro.header.widget.dart';
-import 'widgets/social.header.widget.dart';
-import 'widgets/appBar.header.widget.dart';
+import 'package:portfolio/meta/sections/header/widgets/name.header.widget.dart';
+import 'package:portfolio/meta/sections/header/widgets/intro.header.widget.dart';
+import 'package:portfolio/meta/sections/header/widgets/social.header.widget.dart';
+import 'package:portfolio/meta/sections/header/widgets/appBar.header.widget.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class Header extends StatelessWidget {

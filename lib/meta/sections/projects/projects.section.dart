@@ -1,8 +1,8 @@
-import '/app/shared/colors.dart';
+import 'package:portfolio/app/shared/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
-import 'widgets/project.content.widget.dart';
-import 'constants/project.details.const.dart';
+import 'package:portfolio/meta/sections/projects/widgets/project.content.widget.dart';
+import 'package:portfolio/meta/sections/projects/constants/project.details.const.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ProjectSection extends StatelessWidget {
@@ -10,11 +10,11 @@ class ProjectSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const List projectName = ProjectDetails.projectName;
-    const List projectDetails = ProjectDetails.projectDetails;
-    const List projectDuration = ProjectDetails.projectDuration;
-    const List projectTechStack = ProjectDetails.projectTechStack;
-    const List projectLink = ProjectDetails.projectLink;
+    const List<String> projectName = ProjectDetails.projectName;
+    const List<String> projectDetails = ProjectDetails.projectDetails;
+    const List<String> projectDuration = ProjectDetails.projectDuration;
+    const List<String> projectTechStack = ProjectDetails.projectTechStack;
+    const List<String> projectLink = ProjectDetails.projectLink;
 
     return Material(
       color: Colorz.primaryColor,
@@ -26,11 +26,11 @@ class ProjectSection extends StatelessWidget {
           Expanded(
             child: VxSwiper(
               // options: CarouselOptions(
-              height: context.isMobile ? 380 : 220,
+              height: context.isMobile ? 380.0 : 220.0,
               autoPlayAnimationDuration: 7.seconds,
               autoPlay: true,
               enableInfiniteScroll: true,
-              viewportFraction: 1,
+              viewportFraction: 1.25,
               // ),
               items: [
                 ProjectContent(
