@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use, sort_child_properties_last
+
 import 'package:portfolio/app/shared/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:portfolio/app/routes/social.routes.dart';
